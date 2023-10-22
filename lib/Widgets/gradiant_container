@@ -1,0 +1,20 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_app/Widgets/custom_text.dart';
+
+class GradientContainer extends StatelessWidget {
+  final List<Color> gradientColors;
+  const GradientContainer({super.key, required this.gradientColors});
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          colors: gradientColors,
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter,
+        ),
+      ),
+      child: const CustomText(text: "Hello"),
+    );
+  }
+}
