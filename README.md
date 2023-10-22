@@ -1,16 +1,33 @@
-# flutter_app
+# Roll Dice App.
 
-A new Flutter project.
+Roll the dice by clicking the button.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Language : Dart.
+Framework : Flutter.
+Tools : Andriod Studio.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+To run this application on your local machine, follow these steps:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone this repository:
+
+`git clone https://github.com/Phani179/roll_dice_app`
+
+2. Navigate to the project directory:
+
+ `cd roll_dice_app`
+
+3. Open the folder with either Andriod Studio or Visual Studio Code.
+
+4. Install the required dependencies:
+
+ `flutter pub get`
+
+5. Run the app on your emulator or physical device:
+
+`flutter run`
+
+6. After opening the app on the device click the button to roll the dice.
